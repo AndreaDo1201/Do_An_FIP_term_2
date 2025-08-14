@@ -1,11 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orbitz Official Website - A Taste Out Of The Space</title>
+    <!-- Link to external style.css file -->
+    <link href="css/grid.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <!-- Inter font from Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Quicksand:wght@300..700&family=Saira+Stencil+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <!-- Header section -->
+    <header class="main-header grid-con">
+      <h1 class="hidden">Welcome To The Universe of Orbitz</h1>
+      <!-- Logo -->
+      <a class="col-span-full col-start-1 col-end-3 m-col-start-3 l-col-start-1 l-col-end-3 header-logo">
+        <img
+          src="images/logo2.0_1-01.png"
+          alt="Orbitz_Logo"
+          class="header-logo"
+        />
+      </a>
+      <nav id="main-nav" class="col-span-full m-col-start-1 l-col-start-7 m-col-end-13">
+        <h2 class="hidden">Navigation</h2>
+        <div class="pill-nav">
+          <a class="active" href="homepage.html">Unvierses</a>
+          <a href="products.html">Products</a>
+          <a href="#about">About</a>
+          <a href="contacts.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero section -->
+    <main>
+      <div class="grid-con">
+        <section class="col-span-full hero-content">
+          <img class="hero-img" src="images/hero-01.jpg" alt="hero-01">
+        <div class="col-span-full hero-title">
+          <h2>THE TASTE OUT OF SPACE</h2>
+            <p>
+              Discover your taste, Discover your galaxy
+            </p>
+            <div id="button" class="grid-con">
+              <button class="col-start-1 col-end-3 btn-glow" type="button">
+                DISCOVER
+              </button>
+            </div>
+        </div>
+        </section>
+      </div>
+
+      <!-- Body content information -->
+      <div class="grid-con">
+        <section class="product-section l-col-span-full col-span-full">
+          <h2 class="hidden">Orbitz Products</h2>
+          <h3 id="products" class="product-title ">CHOOSE YOUR UNIVERSE</h3>
+          <br />
+          <div class="img-holder-1 line-separator-1">
+            <div>
+              <img
+                class="flavor-img"
+                src="images/milkyway.png"
+                alt="MilkyWay"
+              />
+              <p>Cherry-Berries</p>
+            </div>
+            <div>
+              <img
+                class="flavor-img"
+                src="images/triangulum.png"
+                alt="Triangulum"
+              />
+              <p>Blueberry-Strawberry</p>
+            </div>
+            <div>
+              <img
+                class="flavor-img"
+                src="images/whirlpool.png"
+                alt="Whirlpool"
+              />
+              <p>Mango-Strawberry</p>
+            </div>
+          </div>
+
+          <div class="img-holder-2">
+            <div>
+              <img class="flavor-img" src="images/cosmos.png" alt="Cosmos" />
+              <p>Cherry-Rashberry</p>
+            </div>
+            <div>
+              <img class="flavor-img" src="images/stellar.png" alt="Stellar" />
+              <p>Banana-Rose</p>
+            </div>
+            <div>
+              <img class="flavor-img" src="images/galatic.png" alt="Galatic" />
+              <p>Orange-Tangarine</p>
+            </div>
+          </div>
+        </section>
+      
+        <section id="story" class="story-section l-col-span-full col-span-full">
+          <h2 class="hidden">Story of Orbitz</h2>
+          <div id="hero-2" class="col-span-full hero-story">
+            <div class="col-span-full">
+              <img class="hero-2" src="images/hero_2.jpg" alt="hero-2" />
+            </div>
+            <div class="col-start-2 col-end-4 bg_story">
+              <h3 id="story-info" class="story-title">STORY OF ORBITZ</h3>
+              <br />
+              <p class=" col-span-1 col-end-5 line-separator-1">
+                Originally launched in the '90s, Orbitz quickly gained a cult
+                following. Some called it a "potable lava lamp," others just
+                stared in awe. Its flavors were fun and fruity—like Raspberry
+                Citrus and Pineapple Banana—and its look was out of this world.
+                But eventually, Orbitz vanished into obscurity, like a comet that
+                burned too bright. Years later, the brand was reborn—this time,
+                truly embracing its cosmic identity. Welcome to the Galaxy Edition
+                of Orbitz.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="why-container" class="l-col-span-full col-span-full container">
+          <h2 class="hidden">Reasons to choose Orbitz</h2>
+          <div class="why-choose">
+            <h3 class="col-span-4"> WHY CHOOSE ORBITZ</h3>
+          </div>
+
+          <div class="why-content line-separator-1">
+            <div class="choose-img col-span-2">
+              <img src="images/why_choose.png" alt="Orbitz can">
+            </div>
+            <div class="icon-right col-span-2">
+              <div class="feature">
+                <img src="images/natural.png" alt="Natural Ingredients">
+                <p>Natural<br>Ingredients</p>
+              </div>
+              <div class="feature">
+                <img src="images/no_chemical.png" alt="No Chemicals">
+                <p>No<br>Chemicals</p>
+              </div>
+              <div class="feature">
+                <img src="images/sugar_free.png" alt="Sugar Free">
+                <p>Sugar<br>Free</p>
+              </div>
+              <div class="feature">
+                <img src="images/low_calo.png" alt="Low Calories">
+                <p>Low<br>Calories</p>
+              </div>
+            </div>
+          </div>
+          <div id="planets" class="planet-display col-span-full">
+            <img src="images/planet.png" alt="planet-deco">
+          </div>
+        </section>
+
+        <div class="hero-order col-span-full">
+          <h2 class="hidden">Banner</h2>
+          <img src="images/hero_4-02.jpg" alt="hero-4">
+          <div class="text-order">
+            <h3>DISCOVER YOUR OWN GALAXY</h3>
+          </div>
+
+          <div id="button-2" class="grid-con">
+              <button class="col-start-2 col-end-3 btn-glow" type="button">
+                ORDER NOW
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social -->
+        <div class="col-span-full">
+          <h2 class="hidden">Our Social Media</h2>
+          <div class="social-media">
+            <h3 class="col-span-4">WHERE TO FIND US</h3>
+          </div>
+
+          <div class="media-icon line-separator-1 social-icon">
+            <i class="fa fa-twitter fa-4x icon-3d"></i>
+            <i class="fa fa-facebook fa-4x icon-3d"></i>
+            <i class="fa fa-instagram fa-4x icon-3d"></i>
+            <i class="fa fa-whatsapp fa-4x icon-3d"></i>
+          </div>
+        </div>
+    </main>
+
+    <footer class="grid-con">
+      <div class="col-span-full l-col-span-full footer footer-top">
+        <section class="grid-con">
+          <h3 class="hidden">Contact Footer</h3>
+          <div class="footer-logo col-span-full l-col-span-full ">
+            <img src="images/logo2.0_1-01.png" alt="Orbit Logo">
+          </div>
+          <div class="footer-links">
+            <div class="col-start-1 col-end-1 m-col-start-1 m-col-end-4 l-col-start-1 l-col-end-4 footer-column">
+              <h4>Company</h4>
+              <a href="#">Career</a>
+              <a href="#">About Us</a>
+              <a href="#">Customer Service</a>
+            </div>
+          </div>
+
+          <div class="col-start-2 col-end-2 l-col-start-5 l-col-end-8 m-col-start-5 m-col-end-8 footer-column">
+            <h4>Support</h4>
+            <a href="#">FAQs</a>
+            <a href="#">Product Locator</a>
+            <a href="#">Store Available</a>
+          </div>
+
+          <div class="col-start-1 col-end-2 m-col-start-8 m-col-end-11 l-col-start-8 l-col-end-11  footer-column">
+            <h4>Explore</h4>
+            <a href="#">Promotion</a>
+            <a href="#">Events</a>
+            <a href="#">Orbitz-"Race to the Nebula"</a>
+          </div>
+        
+          <div class="footer-contact">
+            <a href="#" class="col-start-2 col-end-3 l-col-start-10 l-col-end-13 contact-btn">CONTACT US</a>
+          </div>
+
+          <div class="footer-privacy col-span-full line-separator-2">
+            <p>@Orbitz Soda Company</p>
+            <p>All rights reserved &nbsp;Terms of Use &nbsp;Privacy Policy &nbsp;Cookies Policy</p>
+            <p>DO NOT USE OR SHARE MY PERSONAL INFORMATION</p>
+          </div>
+        </section>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
